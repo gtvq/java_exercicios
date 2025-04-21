@@ -1,6 +1,6 @@
 package primeiro;
 
-public class ImobiliariaCalculos {
+public class Imobiliaria {
 
 	/*
 	 Uma imobiliária vende apenas terrenos retangulares. Faça um programa em
@@ -11,10 +11,10 @@ public class ImobiliariaCalculos {
 	private static int altura;
 	private static int lado;
 	
-	public ImobiliariaCalculos() {
+	public Imobiliaria() {
 	}
 	
-	public ImobiliariaCalculos(int altura, int lado) {
+	public Imobiliaria(int altura, int lado) {
 	}
 
 	public static int getAltura() {
@@ -22,7 +22,7 @@ public class ImobiliariaCalculos {
 	}
 
 	public static void setAltura(int altura) {
-		ImobiliariaCalculos.altura = altura;
+		Imobiliaria.altura = altura;
 	}
 
 	public static int getLado() {
@@ -30,7 +30,7 @@ public class ImobiliariaCalculos {
 	}
 
 	public static void setLado(int lado) {
-		ImobiliariaCalculos.lado = lado;
+		Imobiliaria.lado = lado;
 	}
 	
 	

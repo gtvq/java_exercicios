@@ -8,7 +8,7 @@ public class Primeiro_MainImobiliaria {
 		
 		Scanner sc = new Scanner(System.in);
 
-		ImobiliariaCalculos areaDoTerreno = new ImobiliariaCalculos();
+		Imobiliaria areaDoTerreno = new Imobiliaria();
 		
 		System.out.println("Ola, digite a altura do terreno: ");
 		int altura = sc.nextInt();
