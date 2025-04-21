@@ -2,7 +2,7 @@ package primeiro;
 
 import java.util.Scanner;
 
-public class MainImobiliaria {
+public class Primeiro_MainImobiliaria {
 	
 	public static void main(String[] args) {
 		
