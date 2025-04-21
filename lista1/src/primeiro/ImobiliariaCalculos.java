@@ -1,6 +1,6 @@
-package lista1;
+package primeiro;
 
-public class Primeiro_ImobiliariaCalculos {
+public class ImobiliariaCalculos {
 
 	/*
 	 Uma imobiliária vende apenas terrenos retangulares. Faça um programa em
@@ -11,10 +11,10 @@ public class Primeiro_ImobiliariaCalculos {
 	private static int altura;
 	private static int lado;
 	
-	public Primeiro_ImobiliariaCalculos() {
+	public ImobiliariaCalculos() {
 	}
 	
-	public Primeiro_ImobiliariaCalculos(int altura, int lado) {
+	public ImobiliariaCalculos(int altura, int lado) {
 	}
 
 	public static int getAltura() {
@@ -22,7 +22,7 @@ public class Primeiro_ImobiliariaCalculos {
 	}
 
 	public static void setAltura(int altura) {
-		Primeiro_ImobiliariaCalculos.altura = altura;
+		ImobiliariaCalculos.altura = altura;
 	}
 
 	public static int getLado() {
@@ -30,7 +30,7 @@ public class Primeiro_ImobiliariaCalculos {
 	}
 
 	public static void setLado(int lado) {
-		Primeiro_ImobiliariaCalculos.lado = lado;
+		ImobiliariaCalculos.lado = lado;
 	}
 	
 	

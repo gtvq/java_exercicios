@@ -1,14 +1,14 @@
-package lista1;
+package primeiro;
 
 import java.util.Scanner;
 
-public class Primeiro_MainImobiliaria {
+public class MainImobiliaria {
 	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 
-		Primeiro_ImobiliariaCalculos areaDoTerreno = new Primeiro_ImobiliariaCalculos();
+		ImobiliariaCalculos areaDoTerreno = new ImobiliariaCalculos();
 		
 		System.out.println("Ola, digite a altura do terreno: ");
 		int altura = sc.nextInt();
