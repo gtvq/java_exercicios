@@ -1,6 +1,6 @@
 package clinica;
 
-public class Clinica {
+public class Consulta {
 	/*
 	Cenário
 	Você foi contratado para desenvolver um sistema simples para o controle de
@@ -44,5 +44,73 @@ public class Clinica {
 	animais de estimação funcione conforme o esperado.
 
 	 */
+	
+	private String data;
+	private String observacao;
+	private String tratamento;
+	private String recomendacao;
+	private Veterinario veterinario;
+	private Animal animal;
+	
+	public Consulta() {
+	}
+	
+	public Consulta(String data, String observacao, String tratamento, String recomendacao, Veterinario veterinario, Animal animal) {
+		this.data = data;
+		this.observacao = observacao;
+		this.tratamento = tratamento;
+		this.recomendacao = recomendacao;
+		this.veterinario = veterinario;
+		this.animal = animal;
+	}
 
+	public String getData() {
+		return data;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
+
+	public String getObservacao() {
+		return observacao;
+	}
+
+	public void setObservacao(String observacao) {
+		this.observacao = observacao;
+	}
+
+	public String getTratamento() {
+		return tratamento;
+	}
+
+	public void setTratamento(String tratamento) {
+		this.tratamento = tratamento;
+	}
+
+	public String getRecomendacao() {
+		return recomendacao;
+	}
+
+	public void setRecomendacao(String recomendacao) {
+		this.recomendacao = recomendacao;
+	}
+
+	public Veterinario getVeterinario() {
+		return veterinario;
+	}
+
+	public void setVeterinario(Veterinario veterinario) {
+		this.veterinario = veterinario;
+	}
+	
+	public Animal getAnimal() {
+		return animal;
+	}
+
+	public void setAnimal(Animal animal) {
+		this.animal = animal;
+	}
+
+	
 }
